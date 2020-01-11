@@ -10,7 +10,7 @@ div.robot {
   display: inline-block;
   height: 15rem;
   width: 9.5rem;
-  margin-top: 4rem;
+  margin: 4rem;
 }
 
 div.robot:before,
