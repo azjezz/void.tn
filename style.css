@@ -9,6 +9,7 @@ div.robot {
   position: relative;
   display: inline-block;
   height: 15rem;
+  width: 7.5rem;
   margin-top: 5rem;
 }
 
