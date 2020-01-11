@@ -18,8 +18,8 @@ div.robot:after {
   position: absolute;
   content: '';
   display: block;
-  width: 5px;
-  height: 5px;
+  width: 0.4rem;
+  height: 0.4rem;
 }
 
 .robot:before {
