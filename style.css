@@ -23,37 +23,7 @@ div.robot:after {
 }
 
 .robot:before {
-  -webkit-animation: before 0.3s steps(1) infinite;
-  -moz-animation: before 0.3s steps(1) infinite;
-  -o-animation: before 0.3s steps(1) infinite;
   animation: before 0.3s steps(1) infinite;
-}
-
-@-webkit-keyframes before {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-@-moz-keyframes before {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-}
-
-@-o-keyframes before {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
 }
 
 @keyframes before {
@@ -67,37 +37,7 @@ div.robot:after {
 
 .robot:after {
   opacity: 0;
-  -webkit-animation: after 0.3s steps(1) infinite;
-  -moz-animation: after 0.3s steps(1) infinite;
-  -o-animation: after 0.3s steps(1) infinite;
   animation: after 0.3s steps(1) infinite;
-}
-
-@-webkit-keyframes after {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes after {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframess after {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
 }
 
 @keyframes after {
