@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/azjezz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://void.tn
+  * I am azjezz (https://keybase.io/azjezz) on keybase.
+  * I have a public key ASBG6C6v-7GwW-PBxKqaBF601YuVYZV1TN41DucA7xNz1Qo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012046e82eaffbb1b05be3c1c4aa9a045eb4d58b956195754cde350ee700ef1373d50a",
+      "host": "keybase.io",
+      "kid": "012046e82eaffbb1b05be3c1c4aa9a045eb4d58b956195754cde350ee700ef1373d50a",
+      "uid": "4ad6b7dcf089cfed20640bf440da1119",
+      "username": "azjezz"
+    },
+    "merkle_root": {
+      "ctime": 1594651468,
+      "hash": "9a4c4af2091e9f49631a582977af0466d8382e6ac74b0ca6dc29c9e4c94506e3abae4d8f4b812568b50c681e1daf3816978e7560e0cf8e8f3b7930d63000016c",
+      "hash_meta": "5970b95206146352fda39c3d35be938a876042765eafb84e24256c92029cd22a",
+      "seqno": 16957478
+    },
+    "service": {
+      "entropy": "JyFEW4LBAF3CUwIfDD5hVpwf",
+      "hostname": "void.tn",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1594651516,
+  "expire_in": 504576000,
+  "prev": "d00ad64f7b7b998e9fd4b95cf2f0544eb87a794d37ae0b28c4cf9d650855deec",
+  "seqno": 100,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRugur/uxsFvjwcSqmgRetNWLlWGVdUzeNQ7nAO8Tc9UKp3BheWxvYWTESpcCZMQg0ArWT3t7mY6f1Llc8vBUTrh6eU03rgsoxM+dZQhV3uzEIJ+Q54kqdBJwebSaQEOZY1IsoeDGZcRsb4prisksgBS9AgHCo3NpZ8RAmAWx0IbMc6j6cYQvMRtMbA3H5ZLSrX183uUig8uDbmlM+sIibSuJCT60KSC4Cj5lPre3n/66LZwof2ax2lD9DKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAWypD8hjY2CicC1awCQbdYCTLIg/XQgvjghydTMC7Alo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/azjezz
+
+==================================================================
