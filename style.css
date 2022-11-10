@@ -64,37 +64,37 @@ div.robot:after {
 
 @keyframes spin {
   0% {
-    content: "V O I D";
+    content: "A";
   }
   10% {
-    content: "V O I D";
+    content: "A Z";
   }
   20% {
-    content: "A Z J E Z Z";
+    content: "A Z J";
   }
   30% {
-    content: "A Z J E Z Z";
+    content: "A Z J E";
   }
   40% {
-    content: "V O I D";
+    content: "A Z J E Z";
   }
   50% {
     content: "A Z J E Z Z";
   }
   60% {
-    content: "V O I D";
+    content: "A Z J E Z Z";
   }
   70% {
-    content: "A Z J E Z Z";
+    content: "A Z J E Z";
   }
   80% {
-    content: "A Z J E Z Z";
+    content: "A Z J E";
   }
   90% {
-    content: "A Z J E Z Z";
+    content: "A Z J";
   }
   100% {
-    content: "V O I D";
+    content: "A Z";
   }
 }
 
@@ -102,7 +102,7 @@ div.robot:after {
   margin-top: 6rem;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .footer > div {
