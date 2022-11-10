@@ -1,4 +1,5 @@
 body {
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   background: #222222;
   text-align: center;
   color: white;
@@ -23,7 +24,7 @@ div.robot:after {
 }
 
 .robot:before {
-  animation: before 0.3s steps(1) infinite;
+  animation: before 0.5s steps(1) infinite;
 }
 
 @keyframes before {
@@ -37,7 +38,7 @@ div.robot:after {
 
 .robot:after {
   opacity: 0;
-  animation: after 0.3s steps(1) infinite;
+  animation: after 0.5s steps(1) infinite;
 }
 
 @keyframes after {
@@ -59,7 +60,7 @@ div.robot:after {
 
 #title:after {
   content: "";
-  animation: spin 4s linear infinite;
+  animation: spin 10s ease;
 }
 
 @keyframes spin {
@@ -122,19 +123,24 @@ div.robot:after {
     color: white;
   }
   80% {
-    content: "A Z J E Z";
+    content: "A Z J E Z Z";
+    color: red;
   }
   85% {
-    content: "A Z J E";
+    content: "A Z J E Z Z"; 
+    color: white;
   }
   90% {
-    content: "A Z J";
+    content: "A Z J E Z Z";
+    color: red;
   }
   95% {
-    content: "A Z";
+    content: "A Z J E Z Z"; 
+    color: white;
   }
   100% {
-    content: "A";
+    content: "A Z J E Z Z";
+    color: red;
   }
 }
 
