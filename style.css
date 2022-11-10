@@ -60,7 +60,7 @@ div.robot:after {
 
 #title:after {
   content: "SAIF EDDIN GMATI";
-  animation: spin 2.5s cubic-bezier(1,-0.46,.41,1.62);
+  animation: spin 4s cubic-bezier(1,-0.46,.41,1.62);
 }
 
 @keyframes spin {
@@ -145,10 +145,17 @@ div.robot:after {
 }
 
 .footer {
-  margin-top: 6rem;
-  width: 100%;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 4rem;
+  margin: 6rem auto;
+}
+
+@media (min-width: 600px) {
+  .footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .footer > div {
@@ -157,11 +164,11 @@ div.robot:after {
 
 .footer > div > a {
   margin: auto;
-  color: white;
+  color: #fff;
   text-decoration: none;
-  padding: 0 10px 5px;
-  border-bottom: 5px solid red;
-  font-size: 18px;
+  padding: 0 6px 2px;
+  border-bottom: 2px solid red;
+  font-size: 20px;
 }
 
 .dash {
