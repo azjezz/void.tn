@@ -163,3 +163,7 @@ div.robot:after {
   border-bottom: 5px solid red;
   font-size: 18px;
 }
+
+.span.dash {
+  color: gray; 
+}
