@@ -59,8 +59,8 @@ div.robot:after {
 }
 
 #title:after {
-  content: "";
-  animation: spin 10s ease;
+  content: "SAIF EDDIN GMATI";
+  animation: spin 2.5s cubic-bezier(1,-0.46,.41,1.62);
 }
 
 @keyframes spin {
