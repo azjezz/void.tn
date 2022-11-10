@@ -66,35 +66,75 @@ div.robot:after {
   0% {
     content: "A";
   }
-  10% {
+  5% {
     content: "A Z";
   }
-  20% {
+  10% {
     content: "A Z J";
   }
-  30% {
+  15% {
     content: "A Z J E";
   }
-  40% {
+  20% {
     content: "A Z J E Z";
+  }
+  25% {
+    content: "A Z J E Z Z";
+  }
+  30% {
+    content: "A Z J E Z Z";
+    color: red;
+  }
+  35% {
+    content: "A Z J E Z Z";
+    color: white;
+  }
+  40% {
+    content: "A Z J E Z Z";
+    color: red;
+  }
+  45% {
+    content: "A Z J E Z Z";
+    color: white;
   }
   50% {
     content: "A Z J E Z Z";
+    color: red;
+  }
+  55% {
+    content: "A Z J E Z Z";
+    color: white;
   }
   60% {
     content: "A Z J E Z Z";
+    color: red;
+  }
+  65% {
+    content: "A Z J E Z Z";
+    color: white;
   }
   70% {
-    content: "A Z J E Z";
+    content: "A Z J E Z Z";
+    color: red;
+  }
+  75% {
+    content: "A Z J E Z Z"; 
+    color: white;
   }
   80% {
+    content: "A Z J E Z";
+  }
+  85% {
     content: "A Z J E";
   }
   90% {
     content: "A Z J";
   }
-  100% {
+  95% {
     content: "A Z";
+  }
+  100% {
+    content: "A";
   }
 }
 
