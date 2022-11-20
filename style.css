@@ -168,7 +168,7 @@ div.robot:after {
   text-decoration: none;
   padding: 0 6px 2px;
   border-bottom: 2px solid red;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .dash {
