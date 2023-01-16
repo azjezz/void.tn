@@ -1,0 +1,71 @@
+:root {
+    --background-color: #040404;
+    --text-color: #FFFFFF;
+    --primary-color: #EFCFFD;
+    --secondary-color: #e5adec;
+    --tertiary-color: #d9c9fb;
+}
+
+
+body {
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.code-block {
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    color: var(--text-color);
+    font-size: 1.0rem;
+    text-align: left;
+    width: 30rem;
+    margin: auto;
+}
+
+.comment {
+    color: var(--tertiary-color);
+}
+
+.array {
+    color: #9ef096;
+}
+
+.token {
+    color: #ca476e;
+}
+
+.string {
+    color: #c8ca52;
+}
+
+.code-link {
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.logo {
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 4rem;
+    width: 100%;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    .container {
+        margin-top: 15rem;
+        width: 80rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
